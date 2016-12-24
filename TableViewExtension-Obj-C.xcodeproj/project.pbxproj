@@ -13,6 +13,10 @@
 		AEBC6FD91E0E0266008BF2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FD71E0E0266008BF2A0 /* Main.storyboard */; };
 		AEBC6FDB1E0E0266008BF2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FDA1E0E0266008BF2A0 /* Assets.xcassets */; };
 		AEBC6FDE1E0E0266008BF2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FDC1E0E0266008BF2A0 /* LaunchScreen.storyboard */; };
+		AEBC6FE71E0E0302008BF2A0 /* MyTableViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FE61E0E0302008BF2A0 /* MyTableViewcontroller.m */; };
+		AEBC6FEA1E0E031C008BF2A0 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FE91E0E031C008BF2A0 /* MyTableViewCell.m */; };
+		AEBC6FED1E0E0553008BF2A0 /* UITableView_indexPathForView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FEC1E0E0553008BF2A0 /* UITableView_indexPathForView.m */; };
+		AEBC6FF01E0E09E5008BF2A0 /* UIView+layerProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FEF1E0E09E5008BF2A0 /* UIView+layerProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		AEBC6FDA1E0E0266008BF2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBC6FDD1E0E0266008BF2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBC6FDF1E0E0266008BF2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBC6FE51E0E0302008BF2A0 /* MyTableViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewcontroller.h; sourceTree = "<group>"; };
+		AEBC6FE61E0E0302008BF2A0 /* MyTableViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewcontroller.m; sourceTree = "<group>"; };
+		AEBC6FE81E0E031C008BF2A0 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		AEBC6FE91E0E031C008BF2A0 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		AEBC6FEB1E0E0553008BF2A0 /* UITableView_indexPathForView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableView_indexPathForView.h; sourceTree = "<group>"; };
+		AEBC6FEC1E0E0553008BF2A0 /* UITableView_indexPathForView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView_indexPathForView.m; sourceTree = "<group>"; };
+		AEBC6FEE1E0E09E5008BF2A0 /* UIView+layerProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+layerProperties.h"; sourceTree = "<group>"; };
+		AEBC6FEF1E0E09E5008BF2A0 /* UIView+layerProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layerProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,18 @@
 		AEBC6FCD1E0E0266008BF2A0 /* TableViewExtension-Obj-C */ = {
 			isa = PBXGroup;
 			children = (
+				AEBC6FEE1E0E09E5008BF2A0 /* UIView+layerProperties.h */,
+				AEBC6FEF1E0E09E5008BF2A0 /* UIView+layerProperties.m */,
+				AEBC6FEB1E0E0553008BF2A0 /* UITableView_indexPathForView.h */,
+				AEBC6FEC1E0E0553008BF2A0 /* UITableView_indexPathForView.m */,
 				AEBC6FD11E0E0266008BF2A0 /* AppDelegate.h */,
 				AEBC6FD21E0E0266008BF2A0 /* AppDelegate.m */,
 				AEBC6FD41E0E0266008BF2A0 /* ViewController.h */,
 				AEBC6FD51E0E0266008BF2A0 /* ViewController.m */,
+				AEBC6FE51E0E0302008BF2A0 /* MyTableViewcontroller.h */,
+				AEBC6FE61E0E0302008BF2A0 /* MyTableViewcontroller.m */,
+				AEBC6FE81E0E031C008BF2A0 /* MyTableViewCell.h */,
+				AEBC6FE91E0E031C008BF2A0 /* MyTableViewCell.m */,
 				AEBC6FD71E0E0266008BF2A0 /* Main.storyboard */,
 				AEBC6FDA1E0E0266008BF2A0 /* Assets.xcassets */,
 				AEBC6FDC1E0E0266008BF2A0 /* LaunchScreen.storyboard */,
@@ -151,8 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBC6FD61E0E0266008BF2A0 /* ViewController.m in Sources */,
+				AEBC6FF01E0E09E5008BF2A0 /* UIView+layerProperties.m in Sources */,
 				AEBC6FD31E0E0266008BF2A0 /* AppDelegate.m in Sources */,
 				AEBC6FD01E0E0266008BF2A0 /* main.m in Sources */,
+				AEBC6FE71E0E0302008BF2A0 /* MyTableViewcontroller.m in Sources */,
+				AEBC6FED1E0E0553008BF2A0 /* UITableView_indexPathForView.m in Sources */,
+				AEBC6FEA1E0E031C008BF2A0 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
